@@ -1,0 +1,14 @@
+.avatar {
+	background-image: url("/img/ava.gif");
+}
+
+.avatar:hover {
+	background-image: url("/img/jump.gif");
+}
+.avatar,
+.avatar:hover {
+	height: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+}
