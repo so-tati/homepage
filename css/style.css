@@ -1,3 +1,6 @@
+main:hover {
+	background-color: rgba(207, 0, 15, 1);
+}
 .avatar {
 	background-image: url("/img/ava.gif");
 }
@@ -14,10 +17,31 @@
 	background-position: top;
 }
 
+.name,
+.job,
+h2,
+.details:hover {
+	color: #bd1e2c;
+}
+
 .contacts a.twitter:hover {
     color: #2183de;
 }
 
 .contacts a.instagram:hover {
     color: #9221de;
+}
+
+figure {
+	background-color: #d9dcde;
+	padding: 1rem;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+figcaption {
+	font-weight: bolder;
+	padding-left: 3rem;
 }
