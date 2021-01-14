@@ -2,11 +2,11 @@ main:hover {
 	background-color: rgba(207, 0, 15, 1);
 }
 .avatar {
-	background-image: url("./img/ava.gif");
+	background-image: url("../img/ava.gif");
 }
 
 .avatar:hover {
-	background-image: url("./img/jump.gif");
+	background-image: url("../img/jump.gif");
 }
 
 .avatar,
